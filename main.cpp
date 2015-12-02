@@ -27,7 +27,7 @@ int main(int argc, const char * argv[]) {
         q=new student;
         p->next=q;
         q->next=0;
-        scanf("%s %d",q->name,&(p->age));
+        scanf("%s %d",q->name,&(q->age));
         p=q;
     }
     p=head->next;
